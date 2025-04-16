@@ -2,8 +2,8 @@
 #define RANDOM_GENERATORS_H
 
 // Function declarations
-double generateUniform();
-double generateExponential(double lambda);
-double generateErlang(int k, double lambda);
-double generateNormal(double mean, double stddev);
-#endif // RANDOM_GENERATORS_H
+double functionI1(); // Interarrival time for job type 1 (Exponential)
+double functionI2(); // Interarrival time for job type 2 (Erlang)
+double functionP1(); // Processing time for job type 1 (Normal)
+double functionP2(); // Processing time for job type 2 (Erlang)
+#endif               // RANDOM_GENERATORS_H
